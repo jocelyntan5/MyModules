@@ -8,25 +8,23 @@
     android:paddingLeft="16dp"
     android:paddingTop="16dp"
     android:paddingRight="16dp"
-    tools:context=".MainActivity"
-    android:background="@drawable/main">
+    android:paddingBottom="16dp"
+    tools:context=".ModuleDetails"
+    android:background="@drawable/module_detail">
 
     <TextView
-        android:id="@+id/textViewAndroid"
+        android:id="@+id/textViewModDetails"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/c346_android_programming"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#01675D"
-        android:textStyle="bold" />
+        android:paddingBottom="16dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#81796E" />
 
-    <TextView
-        android:id="@+id/textViewPhp"
+    <Button
+        android:id="@+id/buttonBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="16dp"
-        android:text="@string/c203_php_programming"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#01675D"
-        android:textStyle="bold" />
+        android:text="@string/back" />
+
 </LinearLayout>
